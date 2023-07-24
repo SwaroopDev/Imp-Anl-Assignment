@@ -2,6 +2,8 @@ def find(a,b):
     
     n, m = a,b
     
+    # n represents number of days for which we need to find possible ways
+    # m represents the number of days of cosecustive absents
     # create  matrix with initial value 0
     dp = [[0 for i in range(m+1)] for j in range(n+1)]
     # print(dp)
